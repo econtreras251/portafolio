@@ -27,7 +27,6 @@ export class InformacionService {
   public carga_sobre_nosotros(){
     this.http.get("https://angular-4f93c.firebaseio.com/equipo.json")
               .subscribe( data=>{
-                console.log(data.json())
                 this.firebase = true
                 this.equipo = data.json()
               })
