@@ -5,11 +5,11 @@ import { ProductosService } from '../../services/productos.service';
   selector: 'app-portafolio',
   templateUrl: './portafolio.component.html'
 })
-export class PortafolioComponent  {
-
+export class PortafolioComponent {
 
   constructor( public _ps:ProductosService ){
   }
+
 
 
 }
