@@ -41,7 +41,7 @@ export class ProductosService {
 
       if( prod.categoria.indexOf( termino ) >= 0 || prod.titulo.toLowerCase().indexOf( termino ) >= 0){
         this.productos_filtrados.push( prod )
-        console.log( prod )
+        //console.log( prod )
 
       }
     })
